@@ -1,0 +1,7 @@
+version: '3.6'
+
+services:
+  python:
+    build: .
+    container_name: python3.8.6
+    env_file: .env
